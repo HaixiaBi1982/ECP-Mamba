@@ -2,10 +2,6 @@
 ECP-Mamba: An Efficient Multi-scale Self-supervised Contrastive Learning Method 
 with State Space Model for PolSAR Image Classification
 
-## Abstract
-
-Recently, polarimetric synthetic aperture radar (PolSAR) image classification has been greatly promoted by deep neural networks. However, current deep learning (DL)-based PolSAR image classification methods are caught in the dilemma of obtaining high accuracy with sparse labels while maintaining high computational efficiency. To solve this issue, we present ECP-Mamba, an efficient framework integrating multiscale self-supervised contrastive learning (CL) with a state space model (SSM) backbone. Specifically, we design a cross-scale predictive pretext task, which learns representations via aligning local and global polarimetric features, effectively mitigating the annotation scarcity issue. To enhance computational efficiency, we introduce Mamba architecture to PolSAR image classification for the first time. A spiral scanning strategy tailored for pixelwise classification task is proposed within this framework, prioritizing causally relevant features near the central pixel. Additionally, a lightweight cross Mamba module is proposed to facilitate complementary multiscale feature interaction. Extensive experiments on four benchmark datasets demonstrate the effectiveness of ECP-Mamba in balancing high accuracy with computational efficiency. On the Flevoland 1989 dataset, ECP-Mamba achieves state-of-the-art performance with an overall accuracy (OA) of 99.70%, an average accuracy (AA) of 99.64%, and a Kappa coefficient (Kappa) of 0.9962. 
-
 ## UnZip 
 Unzip ECP-Mamba.zip first
 
@@ -64,3 +60,7 @@ If you find this repository useful, please consider giving a star and citation:
   publisher={IEEE}
 }
 ```
+
+## Abstract
+
+Recently, polarimetric synthetic aperture radar (PolSAR) image classification has been greatly promoted by deep neural networks. However, current deep learning (DL)-based PolSAR image classification methods are caught in the dilemma of obtaining high accuracy with sparse labels while maintaining high computational efficiency. To solve this issue, we present ECP-Mamba, an efficient framework integrating multiscale self-supervised contrastive learning (CL) with a state space model (SSM) backbone. Specifically, we design a cross-scale predictive pretext task, which learns representations via aligning local and global polarimetric features, effectively mitigating the annotation scarcity issue. To enhance computational efficiency, we introduce Mamba architecture to PolSAR image classification for the first time. A spiral scanning strategy tailored for pixelwise classification task is proposed within this framework, prioritizing causally relevant features near the central pixel. Additionally, a lightweight cross Mamba module is proposed to facilitate complementary multiscale feature interaction. Extensive experiments on four benchmark datasets demonstrate the effectiveness of ECP-Mamba in balancing high accuracy with computational efficiency. On the Flevoland 1989 dataset, ECP-Mamba achieves state-of-the-art performance with an overall accuracy (OA) of 99.70%, an average accuracy (AA) of 99.64%, and a Kappa coefficient (Kappa) of 0.9962. 
